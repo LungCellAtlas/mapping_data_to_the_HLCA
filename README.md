@@ -21,6 +21,8 @@ There are a few things to prepare before starting the mapping. This information 
 
 To do the mapping, clone this repository and simply follow the steps in the jupyter notebook "LCA_scArches_mapping_new_data_to_hlca", which you can find in the notebooks folder of this repository.
 
+For more information on the metadata categories of the HLCA (e.g. cell type, subject age, sequencing platform), check out our [metadata explanations](./docs/HLCA_metadata_explanation.csv) in the docs folder.
+
 ### References
 HLCA: [Sikkema et al., bioRxiv 2022](https://www.biorxiv.org/content/10.1101/2022.03.10.483747v1), doi:10.1101/2022.03.10.483747<br>
 scArches: [Lotfollahi et al., Nature Biotechnology 2021](https://www.nature.com/articles/s41587-021-01001-7), doi:10.1038/s41587-021-01001-7<br>
