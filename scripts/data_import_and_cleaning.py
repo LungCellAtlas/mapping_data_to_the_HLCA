@@ -27,6 +27,10 @@ def import_testdata(testfolder):
 
 
 def subset_and_pad_adata_object(adata, ref_genes_df, min_n_genes_included=1500):
+    # delete obsm and varm to enable concatenation
+    print('Deleting .obsm and .varm from data if present, to enable cleaning and padding.')
+    del adata.obsm
+    del adata.varm
     # test if adata.var.index has gene names or ensembl names:
     n_ids_detected = sum(adata.var.index.isin(ref_genes_df.gene_id))
     n_symbols_detected = sum(adata.var.index.isin(ref_genes_df.gene_symbol))

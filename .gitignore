@@ -1,0 +1,5 @@
+test/
+data/
+notebooks/.ipynb_checkpoints/
+scripts/__pycache__/
+testout/
