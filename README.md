@@ -1,4 +1,7 @@
-## Mapping your data to the Human Lung Cell Atlas
+## Outdated/archived! Mapping your data to the Human Lung Cell Atlas
+**Note: this is an old version of the HLCA mapping tutorial!!!**<br>
+For the latest mapping tutorial and HLCA, see: https://github.com/theislab/scarches/blob/hlca_tutorial_improvements/notebooks/hlca_map_classify.ipynb.
+
 This repository enables you to map your own single-cell or single-nucleus data to the Human Lung Cell Atlas.
 
 ### What is the HLCA?
